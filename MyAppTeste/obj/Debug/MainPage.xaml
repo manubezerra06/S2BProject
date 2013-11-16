@@ -12,7 +12,7 @@
 
     <Page.Resources>
         <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
-        <x:String x:Key="AppName">Minha App de Testes</x:String>
+        <x:String x:Key="AppName">Racha Cuca</x:String>
 
     </Page.Resources>
 
@@ -70,56 +70,56 @@
                 <ColumnDefinition Width="100"/>
             </Grid.ColumnDefinitions>
 
-            <Rectangle x:ConnectionId='0' x:Name="rct1"                                            Grid.Row="0" Grid.Column="0" Width="95" Height="95"  HorizontalAlignment="Left"  Margin="2" >
+            <Rectangle x:ConnectionId='2' x:Name="rct1"                                            Grid.Row="0" Grid.Column="0" Width="95" Height="95"  HorizontalAlignment="Left"  Margin="2" >
                 <Rectangle.Fill>
                     <ImageBrush Stretch="Fill" ImageSource="Assets/p1.png"/>
                 </Rectangle.Fill>
             </Rectangle>
 
-            <Rectangle x:ConnectionId='0' x:Name="rct2"                                            Grid.Row="0" Grid.Column="1" Width="95" Height="95" HorizontalAlignment="Left"  Margin="2,3,0,2" >
+            <Rectangle x:ConnectionId='3' x:Name="rct2"                                            Grid.Row="0" Grid.Column="1" Width="95" Height="95" HorizontalAlignment="Left"  Margin="2,3,0,2" >
                 <Rectangle.Fill>
                     <ImageBrush Stretch="Fill" ImageSource="Assets/p2.png"/>
                 </Rectangle.Fill>          
             </Rectangle>
 
-            <Rectangle x:ConnectionId='0' x:Name="rct3"                                            Grid.Row="0" Grid.Column="2" Width="95" Height="95"  HorizontalAlignment="Left"  Margin="2" >
+            <Rectangle x:ConnectionId='4' x:Name="rct3"                                            Grid.Row="0" Grid.Column="2" Width="95" Height="95"  HorizontalAlignment="Left"  Margin="2" >
                 <Rectangle.Fill>
                     <ImageBrush Stretch="Fill" ImageSource="Assets/p3.png"/>
                 </Rectangle.Fill>
             </Rectangle>
 
-            <Rectangle x:ConnectionId='0' x:Name="rct4"                                            Grid.Row="1" Grid.Column="0" Width="95" Height="95"  HorizontalAlignment="Left" Margin="2" >
+            <Rectangle x:ConnectionId='5' x:Name="rct4"                                            Grid.Row="1" Grid.Column="0" Width="95" Height="95"  HorizontalAlignment="Left" Margin="2" >
                 <Rectangle.Fill>
                     <ImageBrush Stretch="Fill" ImageSource="Assets/p4.png"/>
                 </Rectangle.Fill>
             </Rectangle>
 
-            <Rectangle x:ConnectionId='0' x:Name="rct5"                                            Grid.Row="1" Grid.Column="1" Width="95" Height="95"  HorizontalAlignment="Left"  Margin="2" >
+            <Rectangle x:ConnectionId='6' x:Name="rct5"                                            Grid.Row="1" Grid.Column="1" Width="95" Height="95"  HorizontalAlignment="Left"  Margin="2" >
                 <Rectangle.Fill>
                     <ImageBrush Stretch="Fill" ImageSource="Assets/p5.png"/>
                 </Rectangle.Fill>
             </Rectangle>
 
-            <Rectangle x:ConnectionId='0' x:Name="rct6"                                            Grid.Row="1" Grid.Column="2" Width="95" Height="95"  HorizontalAlignment="Left"  Margin="2" >
+            <Rectangle x:ConnectionId='7' x:Name="rct6"                                            Grid.Row="1" Grid.Column="2" Width="95" Height="95"  HorizontalAlignment="Left"  Margin="2" >
                 <Rectangle.Fill>
                     <ImageBrush Stretch="Fill" ImageSource="Assets/p6.png"/>
                 </Rectangle.Fill>
             </Rectangle>
 
-            <Rectangle x:ConnectionId='0' x:Name="rct7"                                            Grid.Row="2" Grid.Column="0" Width="95" Height="95"  HorizontalAlignment="Left"  Margin="2" >
+            <Rectangle x:ConnectionId='8' x:Name="rct7"                                            Grid.Row="2" Grid.Column="0" Width="95" Height="95"  HorizontalAlignment="Left"  Margin="2" >
                 <Rectangle.Fill>
                     <ImageBrush Stretch="Fill" ImageSource="Assets/p7.png"/>
                 </Rectangle.Fill>
             </Rectangle>
 
-            <Rectangle x:ConnectionId='0' x:Name="rct8"                                            Grid.Row="2" Grid.Column="1" Width="95" Height="95"  HorizontalAlignment="Left"  Margin="2" >
+            <Rectangle x:ConnectionId='9' x:Name="rct8"                                            Grid.Row="2" Grid.Column="1" Width="95" Height="95"  HorizontalAlignment="Left"  Margin="2" >
                 <Rectangle.Fill>
                     <ImageBrush Stretch="Fill" ImageSource="Assets/p8.png"/>
                 </Rectangle.Fill>
             </Rectangle>
         </Grid>
         
-        <Button x:ConnectionId='0' Content="Novo Jogo" HorizontalAlignment="Left" Margin="73,426,0,0" Grid.Row="1" VerticalAlignment="Top" Width="109" Height="59"                     />
+        <Button x:ConnectionId='1' Content="Novo Jogo" HorizontalAlignment="Left" Margin="73,426,0,0" Grid.Row="1" VerticalAlignment="Top" Width="109" Height="59"                     />
         <TextBlock x:Name="LabelMoves" HorizontalAlignment="Left" Margin="217,10,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="-6.267,0" FontSize="20" FontWeight="SemiBold" FontFamily="GROBOLD"/>
         <TextBlock x:Name="LabelJogadas" HorizontalAlignment="Left" Margin="65,10,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Movimentos:" VerticalAlignment="Top" RenderTransformOrigin="-6.267,0" FontSize="20" FontWeight="SemiBold" FontFamily="GROBOLD"/>
         <MediaElement x:Name="AudioClick" HorizontalAlignment="Left" Height="100" Margin="461,52,0,0" Grid.Row="1" VerticalAlignment="Top" Width="100" AudioCategory="SoundEffects" AutoPlay="False" Source="Assets/Menu Selection Click.wav"/>

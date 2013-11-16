@@ -12,7 +12,7 @@
 
     <Page.Resources>
         <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
-        <x:String x:Key="AppName">Minha App de Testes</x:String>
+        <x:String x:Key="AppName">Racha Cuca</x:String>
 
     </Page.Resources>
 

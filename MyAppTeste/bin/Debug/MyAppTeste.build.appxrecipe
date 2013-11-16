@@ -8,89 +8,89 @@
     <PackageIdentityName>7647569e-c1ff-413b-9802-caa78063a81a</PackageIdentityName>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\manuela\Desktop\MyAppTeste\MyAppTeste\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="H:\GitHub\S2BProject\MyAppTeste\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\manuela\Desktop\MyAppTeste\MyAppTeste\bin\Debug\MyAppTeste.exe">
+    <AppxPackagedFile Include="H:\GitHub\S2BProject\MyAppTeste\bin\Debug\MyAppTeste.exe">
       <PackagePath>MyAppTeste.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manuela\Desktop\MyAppTeste\MyAppTeste\Assets\imgtotal.png">
+    <AppxPackagedFile Include="H:\GitHub\S2BProject\MyAppTeste\Assets\imgtotal.png">
       <PackagePath>Assets\imgtotal.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manuela\Desktop\MyAppTeste\MyAppTeste\Assets\Logo.scale-100.png">
+    <AppxPackagedFile Include="H:\GitHub\S2BProject\MyAppTeste\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manuela\Desktop\MyAppTeste\MyAppTeste\Assets\onepiece_fundo.png">
+    <AppxPackagedFile Include="H:\GitHub\S2BProject\MyAppTeste\Assets\onepiece_fundo.png">
       <PackagePath>Assets\onepiece_fundo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manuela\Desktop\MyAppTeste\MyAppTeste\Assets\p1.png">
+    <AppxPackagedFile Include="H:\GitHub\S2BProject\MyAppTeste\Assets\p1.png">
       <PackagePath>Assets\p1.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manuela\Desktop\MyAppTeste\MyAppTeste\Assets\p2.png">
+    <AppxPackagedFile Include="H:\GitHub\S2BProject\MyAppTeste\Assets\p2.png">
       <PackagePath>Assets\p2.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manuela\Desktop\MyAppTeste\MyAppTeste\Assets\p3.png">
+    <AppxPackagedFile Include="H:\GitHub\S2BProject\MyAppTeste\Assets\p3.png">
       <PackagePath>Assets\p3.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manuela\Desktop\MyAppTeste\MyAppTeste\Assets\p4.png">
+    <AppxPackagedFile Include="H:\GitHub\S2BProject\MyAppTeste\Assets\p4.png">
       <PackagePath>Assets\p4.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manuela\Desktop\MyAppTeste\MyAppTeste\Assets\p5.png">
+    <AppxPackagedFile Include="H:\GitHub\S2BProject\MyAppTeste\Assets\p5.png">
       <PackagePath>Assets\p5.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manuela\Desktop\MyAppTeste\MyAppTeste\Assets\p6.png">
+    <AppxPackagedFile Include="H:\GitHub\S2BProject\MyAppTeste\Assets\p6.png">
       <PackagePath>Assets\p6.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manuela\Desktop\MyAppTeste\MyAppTeste\Assets\p7.png">
+    <AppxPackagedFile Include="H:\GitHub\S2BProject\MyAppTeste\Assets\p7.png">
       <PackagePath>Assets\p7.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manuela\Desktop\MyAppTeste\MyAppTeste\Assets\p8.png">
+    <AppxPackagedFile Include="H:\GitHub\S2BProject\MyAppTeste\Assets\p8.png">
       <PackagePath>Assets\p8.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manuela\Desktop\MyAppTeste\MyAppTeste\Assets\p9.png">
+    <AppxPackagedFile Include="H:\GitHub\S2BProject\MyAppTeste\Assets\p9.png">
       <PackagePath>Assets\p9.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manuela\Desktop\MyAppTeste\MyAppTeste\Assets\SmallLogo.scale-100.png">
+    <AppxPackagedFile Include="H:\GitHub\S2BProject\MyAppTeste\Assets\SmallLogo.scale-100.png">
       <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manuela\Desktop\MyAppTeste\MyAppTeste\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="H:\GitHub\S2BProject\MyAppTeste\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manuela\Desktop\MyAppTeste\MyAppTeste\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="H:\GitHub\S2BProject\MyAppTeste\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manuela\Desktop\MyAppTeste\MyAppTeste\Assets\tabuleirotransp.png">
+    <AppxPackagedFile Include="H:\GitHub\S2BProject\MyAppTeste\Assets\tabuleirotransp.png">
       <PackagePath>Assets\tabuleirotransp.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manuela\Desktop\MyAppTeste\MyAppTeste\Assets\Menu Selection Click.wav">
+    <AppxPackagedFile Include="H:\GitHub\S2BProject\MyAppTeste\Assets\Menu Selection Click.wav">
       <PackagePath>Assets\Menu Selection Click.wav</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manuela\Desktop\MyAppTeste\MyAppTeste\Assets\positive.wav">
+    <AppxPackagedFile Include="H:\GitHub\S2BProject\MyAppTeste\Assets\positive.wav">
       <PackagePath>Assets\positive.wav</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manuela\Desktop\MyAppTeste\MyAppTeste\Assets\switch1.wav">
+    <AppxPackagedFile Include="H:\GitHub\S2BProject\MyAppTeste\Assets\switch1.wav">
       <PackagePath>Assets\switch1.wav</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manuela\Desktop\MyAppTeste\MyAppTeste\Common\ReadMe.txt">
+    <AppxPackagedFile Include="H:\GitHub\S2BProject\MyAppTeste\Common\ReadMe.txt">
       <PackagePath>Common\ReadMe.txt</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manuela\Desktop\MyAppTeste\MyAppTeste\bin\Debug\App.xbf">
+    <AppxPackagedFile Include="H:\GitHub\S2BProject\MyAppTeste\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manuela\Desktop\MyAppTeste\MyAppTeste\bin\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="H:\GitHub\S2BProject\MyAppTeste\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manuela\Desktop\MyAppTeste\MyAppTeste\bin\Debug\Score.xbf">
+    <AppxPackagedFile Include="H:\GitHub\S2BProject\MyAppTeste\bin\Debug\Score.xbf">
       <PackagePath>Score.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manuela\Desktop\MyAppTeste\MyAppTeste\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="H:\GitHub\S2BProject\MyAppTeste\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
