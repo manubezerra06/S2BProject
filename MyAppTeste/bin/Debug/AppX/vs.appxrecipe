@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>PC-MANU</Machine>
+    <WindowsUser>manuela</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>7647569e-c1ff-413b-9802-caa78063a81a</PackageIdentityName>
+    <RegisteredManifestChecksum>DCC2006885B358CA7963FEB9C0870322CCA194B3DA90FE0F76AB48B2BAA09A36</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>7647569e-c1ff-413b-9802-caa78063a81a_1.0.0.0_neutral__1kr2zd0fnr0sm</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>7647569e-c1ff-413b-9802-caa78063a81a_1kr2zd0fnr0sm!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>7647569e-c1ff-413b-9802-caa78063a81a</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=manuela</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\manuela\Desktop\MyAppTeste\MyAppTeste\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-11-16T19:59:07.774</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\manuela\Desktop\MyAppTeste\MyAppTeste\bin\Debug\MyAppTeste.exe">
+      <PackagePath>MyAppTeste.exe</PackagePath>
+      <Modified>2013-11-16T20:25:35.688</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\manuela\Desktop\MyAppTeste\MyAppTeste\Assets\imgtotal.png">
+      <PackagePath>Assets\imgtotal.png</PackagePath>
+      <Modified>2013-11-16T02:07:05.471</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\manuela\Desktop\MyAppTeste\MyAppTeste\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-11-15T12:52:06.028</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\manuela\Desktop\MyAppTeste\MyAppTeste\Assets\onepiece_fundo.png">
+      <PackagePath>Assets\onepiece_fundo.png</PackagePath>
+      <Modified>2013-11-16T19:20:04.167</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\manuela\Desktop\MyAppTeste\MyAppTeste\Assets\p1.png">
+      <PackagePath>Assets\p1.png</PackagePath>
+      <Modified>2013-11-15T23:33:22.468</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\manuela\Desktop\MyAppTeste\MyAppTeste\Assets\p2.png">
+      <PackagePath>Assets\p2.png</PackagePath>
+      <Modified>2013-11-15T23:33:32.288</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\manuela\Desktop\MyAppTeste\MyAppTeste\Assets\p3.png">
+      <PackagePath>Assets\p3.png</PackagePath>
+      <Modified>2013-11-16T00:12:47.624</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\manuela\Desktop\MyAppTeste\MyAppTeste\Assets\p4.png">
+      <PackagePath>Assets\p4.png</PackagePath>
+      <Modified>2013-11-16T00:12:59.840</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\manuela\Desktop\MyAppTeste\MyAppTeste\Assets\p5.png">
+      <PackagePath>Assets\p5.png</PackagePath>
+      <Modified>2013-11-16T00:13:10.317</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\manuela\Desktop\MyAppTeste\MyAppTeste\Assets\p6.png">
+      <PackagePath>Assets\p6.png</PackagePath>
+      <Modified>2013-11-16T00:13:51.414</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\manuela\Desktop\MyAppTeste\MyAppTeste\Assets\p7.png">
+      <PackagePath>Assets\p7.png</PackagePath>
+      <Modified>2013-11-16T00:14:04.486</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\manuela\Desktop\MyAppTeste\MyAppTeste\Assets\p8.png">
+      <PackagePath>Assets\p8.png</PackagePath>
+      <Modified>2013-11-16T00:14:14.027</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\manuela\Desktop\MyAppTeste\MyAppTeste\Assets\p9.png">
+      <PackagePath>Assets\p9.png</PackagePath>
+      <Modified>2013-11-16T00:14:22.790</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\manuela\Desktop\MyAppTeste\MyAppTeste\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-11-15T13:47:25.020</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\manuela\Desktop\MyAppTeste\MyAppTeste\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-11-15T12:56:41.823</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\manuela\Desktop\MyAppTeste\MyAppTeste\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-11-15T13:47:46.680</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\manuela\Desktop\MyAppTeste\MyAppTeste\Assets\tabuleirotransp.png">
+      <PackagePath>Assets\tabuleirotransp.png</PackagePath>
+      <Modified>2013-11-16T02:04:48.662</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\manuela\Desktop\MyAppTeste\MyAppTeste\Assets\Menu Selection Click.wav">
+      <PackagePath>Assets\Menu Selection Click.wav</PackagePath>
+      <Modified>2013-11-16T17:48:15.677</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\manuela\Desktop\MyAppTeste\MyAppTeste\Assets\positive.wav">
+      <PackagePath>Assets\positive.wav</PackagePath>
+      <Modified>2013-11-16T18:14:38.558</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\manuela\Desktop\MyAppTeste\MyAppTeste\Assets\switch1.wav">
+      <PackagePath>Assets\switch1.wav</PackagePath>
+      <Modified>2013-11-16T18:27:37.007</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\manuela\Desktop\MyAppTeste\MyAppTeste\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+      <Modified>2013-11-14T11:30:03.158</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\manuela\Desktop\MyAppTeste\MyAppTeste\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2013-11-14T11:30:22.085</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\manuela\Desktop\MyAppTeste\MyAppTeste\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2013-11-16T20:25:35.323</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\manuela\Desktop\MyAppTeste\MyAppTeste\bin\Debug\Score.xbf">
+      <PackagePath>Score.xbf</PackagePath>
+      <Modified>2013-11-16T19:59:07.062</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\manuela\Desktop\MyAppTeste\MyAppTeste\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-11-16T19:59:07.618</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
