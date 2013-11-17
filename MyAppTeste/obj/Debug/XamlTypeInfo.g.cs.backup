@@ -124,7 +124,7 @@ namespace MyAppTeste.MyAppTeste_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[8];
+            _typeNameTable = new string[9];
             _typeNameTable[0] = "MyAppTeste.MainPage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
@@ -133,8 +133,9 @@ namespace MyAppTeste.MyAppTeste_XamlTypeInfo
             _typeNameTable[5] = "String";
             _typeNameTable[6] = "MyAppTeste.Common.NavigationHelper";
             _typeNameTable[7] = "Windows.UI.Xaml.DependencyObject";
+            _typeNameTable[8] = "MyAppTeste.Score";
 
-            _typeTable = new global::System.Type[8];
+            _typeTable = new global::System.Type[9];
             _typeTable[0] = typeof(global::MyAppTeste.MainPage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
@@ -143,6 +144,7 @@ namespace MyAppTeste.MyAppTeste_XamlTypeInfo
             _typeTable[5] = typeof(global::System.String);
             _typeTable[6] = typeof(global::MyAppTeste.Common.NavigationHelper);
             _typeTable[7] = typeof(global::Windows.UI.Xaml.DependencyObject);
+            _typeTable[8] = typeof(global::MyAppTeste.Score);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -179,6 +181,7 @@ namespace MyAppTeste.MyAppTeste_XamlTypeInfo
 
         private object Activate_0_MainPage() { return new global::MyAppTeste.MainPage(); }
         private object Activate_3_ObservableDictionary() { return new global::MyAppTeste.Common.ObservableDictionary(); }
+        private object Activate_8_Score() { return new global::MyAppTeste.Score(); }
         private void MapAdd_3_ObservableDictionary(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.String, global::System.Object>)instance;
@@ -237,6 +240,14 @@ namespace MyAppTeste.MyAppTeste_XamlTypeInfo
             case 7:   //  Windows.UI.Xaml.DependencyObject
                 xamlType = new global::MyAppTeste.MyAppTeste_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
+
+            case 8:   //  MyAppTeste.Score
+                userType = new global::MyAppTeste.MyAppTeste_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_8_Score;
+                userType.AddMemberName("DefaultViewModel");
+                userType.AddMemberName("NavigationHelper");
+                xamlType = userType;
+                break;
             }
             return xamlType;
         }
@@ -250,6 +261,16 @@ namespace MyAppTeste.MyAppTeste_XamlTypeInfo
         private object get_1_MainPage_NavigationHelper(object instance)
         {
             var that = (global::MyAppTeste.MainPage)instance;
+            return that.NavigationHelper;
+        }
+        private object get_2_Score_DefaultViewModel(object instance)
+        {
+            var that = (global::MyAppTeste.Score)instance;
+            return that.DefaultViewModel;
+        }
+        private object get_3_Score_NavigationHelper(object instance)
+        {
+            var that = (global::MyAppTeste.Score)instance;
             return that.NavigationHelper;
         }
 
@@ -270,6 +291,18 @@ namespace MyAppTeste.MyAppTeste_XamlTypeInfo
                 userType = (global::MyAppTeste.MyAppTeste_XamlTypeInfo.XamlUserType)GetXamlTypeByName("MyAppTeste.MainPage");
                 xamlMember = new global::MyAppTeste.MyAppTeste_XamlTypeInfo.XamlMember(this, "NavigationHelper", "MyAppTeste.Common.NavigationHelper");
                 xamlMember.Getter = get_1_MainPage_NavigationHelper;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "MyAppTeste.Score.DefaultViewModel":
+                userType = (global::MyAppTeste.MyAppTeste_XamlTypeInfo.XamlUserType)GetXamlTypeByName("MyAppTeste.Score");
+                xamlMember = new global::MyAppTeste.MyAppTeste_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "MyAppTeste.Common.ObservableDictionary");
+                xamlMember.Getter = get_2_Score_DefaultViewModel;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "MyAppTeste.Score.NavigationHelper":
+                userType = (global::MyAppTeste.MyAppTeste_XamlTypeInfo.XamlUserType)GetXamlTypeByName("MyAppTeste.Score");
+                xamlMember = new global::MyAppTeste.MyAppTeste_XamlTypeInfo.XamlMember(this, "NavigationHelper", "MyAppTeste.Common.NavigationHelper");
+                xamlMember.Getter = get_3_Score_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
             }
